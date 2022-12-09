@@ -2,7 +2,7 @@
 name: Dharmik Gangani
 avatar: /static/images/avatar.png
 occupation: Security Reseacher
-company: Accenture
+company: 
 email: dharmikgangani786@gmail.com
 twitter: https://twitter.com/im_Dharma09
 linkedin: https://www.linkedin.com/in/parth-desai-2bb1b0160/
