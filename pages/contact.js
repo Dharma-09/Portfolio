@@ -20,7 +20,7 @@ const Contact = () => {
             <ContactLink href="https://github.com/Dharma-09" title="github" icon="Dharma-09" />
             <ContactLink href="https://twitter.com/im_Dharma09" title="twitter" icon="im_Dharma09" />
             <ContactLink
-              href="https://www.linkedin.com/in/parth-desai-2bb1b0160/"
+              href="https://www.linkedin.com/in/dharmik-gangani-ab2217193/"
               title="linkedin"
               icon="DharmikGangani"
             />
