@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="mb-2 hidden text-sm text-gray-500 dark:text-gray-400 md:flex">
           <div className="mx-1">
-            <Link href="https://dpex.vercel.app" className="link-underline">
+            <Link href="https://dharma1.netlify.app" className="link-underline">
               Dharmik Gangani{` © ${new Date().getFullYear()}`}
             </Link>
           </div>
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="mb-2 text-sm text-gray-500 dark:text-gray-400 sm:block md:hidden lg:hidden">
           <div className="mx-1">
-            <Link href="https://dpex.vercel.app" className="link-underline">
+            <Link href="https://dharma1.netlify.app" className="link-underline">
               Dharmik{` © ${new Date().getFullYear()}`}
             </Link>
           </div>
