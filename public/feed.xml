@@ -2,7 +2,7 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>Blog | Dharmik Gangani</title>
-      <link>https://depx.vercel.app/blog</link>
+      <link>https://dharma1.netlify.app/blog</link>
       <description>My personal blog where I share my musings</description>
       <language>en-us</language>
       <managingEditor>dharmikgangani786@gmail.com (Dharmik Gangani)</managingEditor>
@@ -11,19 +11,19 @@
       <atom:link href="https://depx.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://depx.vercel.app/blog/spotify-refresh-token</guid>
-    <title>How to get the Spotify Refresh Token</title>
-    <link>https://depx.vercel.app/blog/spotify-refresh-token</link>
-    <description>Getting the Spotify Refresh Token doesn&#39;t need to be a hassle any longer.</description>
-    <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
+    <guid>https://dharma1.netlify.app/blog/Solidity-Gas-Optimizations-Tips</guid>
+    <title>Solidity Gas Optimizations Cheat Sheet</title>
+    <link>https://dharma1.netlify.app/blog/spotify-refresh-token</link>
+    <description>This article is going to give you a couple of tips to reduce gas consumption in your .</description>
+    <pubDate>Sat, 10 Dec 2022 00:00:00 GMT</pubDate>
     <author>dharmikgangani786@gmail.com (Dharmik Gangani)</author>
-    <category>spotify</category><category>hacks</category>
+    <category>smart contract</category><category>solidity</category><category>gas optimization</category>
   </item>
 
   <item>
-    <guid>https://depx.vercel.app/blog/Apple-Privacy</guid>
+    <guid>https://dharma1.netlify.app/blog/Apple-Privacy</guid>
     <title>Apple doesn&#39;t care about privacy, and it&#39;s showing.</title>
-    <link>https://depx.vercel.app/blog/Apple-Privacy</link>
+    <link>https://dharma1.netlify.app/blog/Apple-Privacy</link>
     <description>Apple announced that it would begin checking content uploaded to iCloud Photos, against a list of known CSAM material. This is fine on it&#39;s own, however the system could easily be abused.</description>
     <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
     <author>dharmikgangani786@gmail.com (Dharmik Gangani)</author>
@@ -31,9 +31,9 @@
   </item>
 
   <item>
-    <guid>https://depx.vercel.app/blog/WWDC22</guid>
+    <guid>https://dharma1.netlify.app/blog/WWDC22</guid>
     <title>WWDC 2022 Wishlist</title>
-    <link>https://depx.vercel.app/blog/WWDC22</link>
+    <link>https://dharma1.netlify.app/blog/WWDC22</link>
     <description>Even though I don&#39;t use any of their products myself, here&#39;s the features I hope Apple will announce.</description>
     <pubDate>Sun, 05 Jun 2022 00:00:00 GMT</pubDate>
     <author>dharmikgangani786@gmail.com (Dharmik Gangani)</author>
@@ -41,9 +41,9 @@
   </item>
 
   <item>
-    <guid>https://depx.vercel.app/blog/Apple-Competition</guid>
+    <guid>https://dharma1.netlify.app/blog/Apple-Competition</guid>
     <title>Apple and the case for competition.</title>
-    <link>https://depx.vercel.app/blog/Apple-Competition</link>
+    <link>https://dharma1.netlify.app/blog/Apple-Competition</link>
     <description>The EU announced plans to force all devices – including iPhones – to use a common charging port.</description>
     <pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate>
     <author>dharmikgangani786@gmail.com (Dharmik Gangani)</author>
