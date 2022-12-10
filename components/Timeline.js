@@ -23,10 +23,10 @@ export default function Timeline() {
             </span>
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            June 13th, 2022
+            June 13th, 2023
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Feel confident that I can work as a junior Data Engineer. Wish me Luck
+            Feel confident that I can work as a junior Block Security Engineer. Wish me Luck
           </p>
         </li>
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -37,10 +37,10 @@ export default function Timeline() {
             Graduated College
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            May 21st, 2022
+            May 21st, 2023
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            8.2 CGPA / 3.42 GPA
+            8.15 CGPA / 3.45 GPA
           </p>
         </li>
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -77,10 +77,10 @@ export default function Timeline() {
             First Internship
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            March 17th, 2021
+            March 20th, 2022
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Analytics Engineer @ HOPS Healthcare
+            Python Developer @ Skillvoid
           </p>
         </li>
         <li className="mb-2 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -89,10 +89,10 @@ export default function Timeline() {
           </span>
           <h3 className="text-base font-semibold text-gray-900 dark:text-white">Started College</h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 20th, 2018
+            August 20th, 2019
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Bachelor of Technology in Computer Science
+            Bachelor of Technology in Information Technology
           </p>
         </li>
         <Disclosure>
@@ -124,10 +124,10 @@ export default function Timeline() {
                       Finished Senior Year
                     </h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      May 16th, 2018
+                      May 16th, 2019
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-                      With 92% in 10<sup>th</sup> & 86% in 12<sup>th</sup>
+                      With 84% in 10<sup>th</sup> & 81% in 12<sup>th</sup>
                     </p>
                   </li>
                   <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
@@ -138,7 +138,7 @@ export default function Timeline() {
                       First Code
                     </h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      July 6th, 2015
+                      July 27th, 2016
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
                       Wrote my first program in C
@@ -150,7 +150,7 @@ export default function Timeline() {
                     </span>
                     <h3 className="text-base font-semibold text-gray-900 dark:text-white">Born</h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      April 16th, 2000
+                      March 08th, 2002
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
                       Connected to the internet
