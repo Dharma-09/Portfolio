@@ -3,7 +3,7 @@ title: Solidity Gas Optimization Tips
 date: '2022-12-10'
 tags: [smart contract,blockchain,gas optimization]
 draft: false
-summary:There are a number of things you should keep in mind to write the best and most gas efficient solidity code. In this post you can find a list of low-hanging fruits you can apply to your contracts today.
+summary:There are a number of things you should keep in mind to write the best and most gas efficient solidity code.
 ---
 
 <img
@@ -82,3 +82,20 @@ function add(uint256 _amount) public {
 ```
 <br />
 <br />
+
+## 4: Short-circuit with || and &&
+For || and && operators, the second case is not checked if the first case gives the result of the logical expression.  Put the lower-cost expression first so the higher-cost expression may be skipped (short-circuit).
+
+Before:
+```solidity
+case 1: 100 gas
+case 2: 50 gas
+
+if(case1 && case2) revert 
+if(case1 || case2) revert
+```
+After:
+```solidity
+if(case2 && case1) revert 
+if(case2 || case1) revert 
+```
