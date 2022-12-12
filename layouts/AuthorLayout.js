@@ -180,7 +180,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </p>
             <br />
             <br />
-             /*<h1>About this site</h1>
+             <h1>About this site</h1>
             <p>
               Welcome to my home on the internet. This site functions as a blog/portfolio, a place
               to share code and thoughts. Opinions are my own.
@@ -235,7 +235,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </ul>
             </p>
           </div>
-        </div>*/
+        </div>
         <div className="mt-10 md:pl-16">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
