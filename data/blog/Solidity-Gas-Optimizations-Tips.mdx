@@ -87,3 +87,15 @@ After:
 if(case2 && case1) revert 
 if(case2 || case1) revert 
 ```
+
+## 5:Use of constant keccak variables results in extra hashing (and so gas).
+This results in the keccak operation being performed whenever the variable is used, increasing gas costs relative to just storing the output hash. Changing to immutable will only perform hashing on contract deployment which will save gas.
+
+### reference
+
+[ethereum/solidity#9232 (comment)](https://github.com/ethereum/solidity/issues/9232#issuecomment-646131646)
+
+```diff
+- bytes32 public constant SET_MANAGER_WITHDRAW_HOOK_ROLE = keccak256("Collateral_setManagerWithdrawHook(ICollateralHook)");
++ bytes32 public immutable SET_MANAGER_WITHDRAW_HOOK_ROLE = keccak256("Collateral_setManagerWithdrawHook(ICollateralHook)");
+```
