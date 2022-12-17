@@ -21,13 +21,13 @@
   </item>
 
   <item>
-    <guid>https://dharma1.netlify.app/blog/Apple-Privacy</guid>
-    <title>Apple doesn&#39;t care about privacy, and it&#39;s showing.</title>
-    <link>https://dharma1.netlify.app/blog/Apple-Privacy</link>
-    <description>Apple announced that it would begin checking content uploaded to iCloud Photos, against a list of known CSAM material. This is fine on it&#39;s own, however the system could easily be abused.</description>
-    <pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate>
+    <guid>https://dharma1.netlify.app/blog/Detects-vulnerability-with-Slither</guid>
+    <title>Detects vulnerable Solidity code with Slither</title>
+    <link>https://dharma1.netlify.app/blog/Detects-vulnerability-with-Slither</link>
+    <description>Slither is a static analysis framework for smart contracts, it enables developers to find vulnerabilities in their solidity smart contracts code in a few seconds, it can also be used for code optimization or review.</description>
+    <pubDate>Wed, 06 Dec 2022 00:00:00 GMT</pubDate>
     <author>dharmikgangani786@gmail.com (Dharmik Gangani)</author>
-    <category>apple</category><category>tech</category><category>privacy</category>
+    <category>solidity</category><category>Blockchain</category><category>smart contarct</category>
   </item>
 
   <item>
