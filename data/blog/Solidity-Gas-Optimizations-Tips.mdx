@@ -99,3 +99,20 @@ This results in the keccak operation being performed whenever the variable is us
 - bytes32 public constant SET_MANAGER_WITHDRAW_HOOK_ROLE = keccak256("Collateral_setManagerWithdrawHook(ICollateralHook)");
 + bytes32 public immutable SET_MANAGER_WITHDRAW_HOOK_ROLE = keccak256("Collateral_setManagerWithdrawHook(ICollateralHook)");
 ```
+## 6.++i/i++ should be unchecked{++i}/unchecked{i++}
+when it is not possible for them to overflow, as is the case when used in for- and while-loops.The unchecked keyword is new in solidity version 0.8.0, so this only applies to that version or higher, which these instances are. 
+
+This saves 30-40 gas per loop
+```solidity
+        for (uint256 i; i < newPools_.length; ++i) {
+```
+## 7.internal functions only called once can be inlined to save gas
+Not inlining costs 20 to 40 gas because of two extra JUMP instructions and additional stack operations needed for function calls.
+
+```solidity
+  function _addKnownAddressKey(bytes32 key, AddressProviderMeta.Meta memory meta) internal {
+```
+## 8. <x> += <y> costs more gas than <x> = <x> + <y> for state variables
+```solidity
+    strategiesTotalStaked += staked;
+```
