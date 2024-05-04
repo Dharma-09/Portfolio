@@ -205,7 +205,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         </div>
        <div className="mt-10 md:pl-16">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-            <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h3 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Open Source Experience
             </h3>
           </div>
