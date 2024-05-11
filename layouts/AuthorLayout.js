@@ -103,7 +103,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Cyber Security.
+                actively on the lookout for remote opportunity which I can pursue in field of Cloud Security or Devops.
               </RoughNotation>
             </p>
             <p className="hidden md:block">
@@ -130,7 +130,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Cyber Security.
+                actively on the lookout for remote opportunity which I can pursue in field of Cloud Security or Devops.
               </RoughNotation>
             </p>
             <br />
