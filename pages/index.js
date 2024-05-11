@@ -28,7 +28,7 @@ export default function Home({ posts }) {
               <span className="text-primary-color-500 dark:text-primary-color-dark-500">Dharmik</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I am a Security Researcher who is passionate about Cyber Security and Blockchain. In my free time, I like developing `}
+              {`Welcome to ${siteMetadata.description}. I am a Security Researcher and developer who is passionate about Cloud Security and Devops. In my free time, I like developing `}
               side projects and learning new technologies.
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
