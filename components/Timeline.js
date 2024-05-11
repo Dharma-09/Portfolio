@@ -26,7 +26,7 @@ export default function Timeline() {
             June 13th, 2023
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Feel confident that I can work as a junior BlockChain Security Engineer. Wish me Luck
+            Feel confident that I can work as a Cloud Security Engineer. Wish me Luck
           </p>
         </li>
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
