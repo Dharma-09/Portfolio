@@ -1,3 +1,4 @@
+/** 
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
@@ -71,8 +72,8 @@ export default function Home({ posts }) {
                 </span>{' '}
                 <span className="text-sm">to start</span>
               </div> */}
-            </p>
-          </div>
+           // </p>
+         // </div>
           {/* <div className="h-content sm:h-content-sm flex flex-col justify-around">
             <h1 className="sm:text-8.5xl tracking-tightest my-28 select-none text-center text-6xl font-extrabold leading-none sm:my-10">
               <span
@@ -101,7 +102,7 @@ export default function Home({ posts }) {
               </span>
             </h1>
           </div> */}
-          <div className="flex items-center justify-center">
+        /**  <div className="flex items-center justify-center">
             <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
@@ -265,8 +266,8 @@ export default function Home({ posts }) {
         </div>
       )}
       {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">{/* <NewsletterForm /> */}</div>
-      )}
-    </>
-  )
-}
+     <div className="flex items-center justify-center pt-4">{/* <NewsletterForm /> *///}</div>
+      //)}
+    //</>
+  //)
+//}

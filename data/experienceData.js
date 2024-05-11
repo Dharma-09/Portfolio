@@ -25,17 +25,15 @@ const experienceData = [
       'Developed script for automatically extracting gas optimization issue from given scope using Golang and Regex.',
   },
   {
-    title: 'Wagatil Front UI Core Team Member',
+    title: 'Wagatil Front-end UI Core Team Member',
     company: 'Wagtail',
     location:'',
     range: 'March 2021 - Present',
     url: 'https://code4rena.com/leaderboard',
     text1:
-      'I am certified warden at code4rena',
+      'Succesfully merge pull request in wagtail',
     text2:
-      'I have found Medium severity vulnerabilities along with lots of gas optimization and code optimization report',
-    text3:
-      'Developed script for automatically extracting gas optimization issue from given scope using Golang and Regex.',
+      'Has work on Wagtail page editor 2022 stand alone project.Aim of this project is redesign wagtail StreamField and TextField widget resizing.',
   },
 ]
 
