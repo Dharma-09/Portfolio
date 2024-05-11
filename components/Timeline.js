@@ -60,13 +60,13 @@ export default function Timeline() {
             <HiOutlineDatabase />
           </span>
           <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-            6 Month Internship
+            Joining code4rena
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            January 12th, 2022
+            August 22th, 2023
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-             @ 
+            Security Researcher @ code4rena 
           </p>
         </li>
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
